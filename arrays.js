@@ -47,7 +47,7 @@ let answers = []
 for(let i = 0; i < bigOrSmallArray.length; i++){
   if(bigOrSmallArray[i] > 100){
     answers.push('Big')
-  }else if(i <= 100){
+  }else if(bigOrSmallArray[i] <= 100){
     answers.push('Small')
   } else{
     console.log('Not a number')
