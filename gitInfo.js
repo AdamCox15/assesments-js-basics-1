@@ -65,7 +65,9 @@ const gitAddCode = "git add --all"
     It should be a string containing the code to commit using the message "initial commit".
 */
 
-const gitCommitDefinition ""
+const gitCommitDefinition = "In git a commit is a snapshot of your repo at a specific point in time."
+
+const gitCommitCode = "git commit -m 'initial commit'."
 
 
 //////////////////PROBLEM 8////////////////////
@@ -74,4 +76,4 @@ const gitCommitDefinition ""
     It should be a string containing your best definition of what 'git push' does.
 */
 
-//CODE HERE
+const gitPushDefinition = "The git push command is used to upload local repository content to a remote repository. Pushing is how you transfer commits from your local repository to a remote repo. It's the counterpart to git fetch , but whereas fetching imports commits to local branches, pushing exports commits to remote branches."
